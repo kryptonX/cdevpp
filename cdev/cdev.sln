@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cdev", "cdev\cdev.vcxproj", "{98D38AE8-6D68-4C9E-879B-7DC9D54442CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20852AFD-AF17-4AA8-BDB9-9A3E7B107DC1} = {20852AFD-AF17-4AA8-BDB9-9A3E7B107DC1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vdir", "..\vdir\vdir.vcxproj", "{20852AFD-AF17-4AA8-BDB9-9A3E7B107DC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcfs", "..\cfs\libcfs\libcfs\libcfs.vcxproj", "{C9F2B792-7662-41E0-8D09-56F5D969C000}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D38AE8-6D68-4C9E-879B-7DC9D54442CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98D38AE8-6D68-4C9E-879B-7DC9D54442CC}.Debug|Win32.Build.0 = Debug|Win32
+		{98D38AE8-6D68-4C9E-879B-7DC9D54442CC}.Release|Win32.ActiveCfg = Release|Win32
+		{98D38AE8-6D68-4C9E-879B-7DC9D54442CC}.Release|Win32.Build.0 = Release|Win32
+		{20852AFD-AF17-4AA8-BDB9-9A3E7B107DC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20852AFD-AF17-4AA8-BDB9-9A3E7B107DC1}.Debug|Win32.Build.0 = Debug|Win32
+		{20852AFD-AF17-4AA8-BDB9-9A3E7B107DC1}.Release|Win32.ActiveCfg = Release|Win32
+		{20852AFD-AF17-4AA8-BDB9-9A3E7B107DC1}.Release|Win32.Build.0 = Release|Win32
+		{C9F2B792-7662-41E0-8D09-56F5D969C000}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C9F2B792-7662-41E0-8D09-56F5D969C000}.Debug|Win32.Build.0 = Debug|Win32
+		{C9F2B792-7662-41E0-8D09-56F5D969C000}.Release|Win32.ActiveCfg = Release|Win32
+		{C9F2B792-7662-41E0-8D09-56F5D969C000}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

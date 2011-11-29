@@ -1,0 +1,20 @@
+﻿  OpenFile.cpp
+c:\users\utilisateur\desktop\projects\c++\other\cdev++\cdev\cdev\openfile.cpp(20): warning C4627: '#include <Windows.h>': skipped when looking for precompiled header use
+          Add directive to 'StdAfx.h' or rebuild precompiled header
+c:\users\utilisateur\desktop\projects\c++\other\cdev++\cdev\cdev\openfile.cpp(21): warning C4627: '#include "OpenFiles.h"': skipped when looking for precompiled header use
+          Add directive to 'StdAfx.h' or rebuild precompiled header
+  Generating Code...
+c:\users\utilisateur\desktop\projects\c++\other\cdev++\cdev\cdev\openfile.cpp(45): warning C4700: uninitialized local variable 'pszFileText_' used
+  Compiling...
+  DoFileOpen.cpp
+c:\users\utilisateur\desktop\projects\c++\other\cdev++\cdev\cdev\dofileopen.cpp(1): warning C4627: '#include <Windows.h>': skipped when looking for precompiled header use
+          Add directive to 'StdAfx.h' or rebuild precompiled header
+c:\users\utilisateur\desktop\projects\c++\other\cdev++\cdev\cdev\dofileopen.cpp(2): warning C4627: '#include "Resource.h"': skipped when looking for precompiled header use
+          Add directive to 'StdAfx.h' or rebuild precompiled header
+  Generating Code...
+  Compiling...
+  cdev.cpp
+c:\users\utilisateur\desktop\projects\c++\other\cdev++\cdev\cdev\cdev.cpp(164): warning C4101: 'hwNd' : unreferenced local variable
+  Generating Code...
+c:\users\utilisateur\desktop\projects\c++\other\cdev++\cdev\cdev\cdev.cpp(52): warning C4700: uninitialized local variable 'psz' used
+  cdev.vcxproj -> C:\Users\Utilisateur\Desktop\Projects\C++\other\cdev++\cdev\Debug\cdev.exe
